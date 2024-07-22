@@ -1,0 +1,694 @@
+{"intents":
+[
+  {
+    "tag" : "greetings",
+    "patterns" : ["Hello","Hey","Hi","Good Day","Greetings"],
+    "responses" : ["Hello!","Hey","What Can I do for you?"]
+  },
+
+  {
+    "tag" : "Acne",
+    "patterns" : ["blackheads","pimples","face pimples","neck pimples","shoulder pimples"],
+    "responses" : ["According to your symptoms you might have Acne","You have Acne","I suppose you have Acne"],
+    "treatment" : ["Potential treatments or management strategies for your conditions are -", "over-the-counter topical treatments", "prescription medications", "lifestyle changes", "professional treatments"]
+  },
+
+  {
+    "tag" : "Attention Deficit Disorder (ADHD)",
+    "patterns" : ["impulsivity","hyperactivity","lack of focus","messy works","restlessness"],
+    "responses" : ["According to your symptoms you might have Attention Deficit Disorder","You have Attention Deficit Disorder","I suppose you have Attention Deficit Disorder"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","medication", "behavioral therapy", "organizational tools", "psychoeducation"]
+  },
+
+  {
+    "tag" : "Allergies",
+    "patterns" : ["sneezing","itchy eyes","coughing","watery eyes","itchy nose"],
+    "responses" : ["According to your symptoms you might have Allergies","You have Allergies","I suppose you have Allergies"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","antihistamines", "nasal corticosteroids", "avoidance of allergens", "allergy shots"]
+  },
+
+  {
+    "tag" : "Alzheimers",
+    "patterns" : ["forgetful","confusion with time","poor judgement"],
+    "responses" : ["According to your symptoms you might have Alzheimers","You have Alzheimers","I suppose you have Alzheimers"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","medications to manage symptoms", "cognitive therapies", "supportive care", "lifestyle changes"]
+  },
+
+  {
+  	"tag" : "Ankylosing Spondylitis",
+  	"patterns" : ["loss of appetite","weight loss","difficulty walking","pain in heels","pain in hips","pain in jaw","decreased energy","heart failure","heart block","pain in lower back","stiffness"],
+  	"responses" : ["According to your symptoms you might have Ankylosing Spondylitis","You have Ankylosing Spondylitis","I suppose you have Ankylosing Spondylitis"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","physical therapy", "NSAIDs", "biological therapies", "regular exercise"]
+
+  },
+
+  {
+  	"tag" : "Anorexia",
+  	"patterns" : ["terrifies of gaining weight","hard to sleep through night","dizziness","hair is falling out","constipation","swollen arms","swollen legs","fainting","underweight"],
+  	"responses" : ["According to your symptoms you might have Anorexia","You have Anorexia","I suppose you have Anorexia"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","nutritional counseling", "therapy", "medical supervision", "support groups"
+]
+  },
+
+  {
+  	"tag" : "Anxiety or Panic Disorder",
+  	"patterns" : ["rapid heartbeat","fast heartbeat","sweating","shaking","shortness of breath","fear of death","chest pain","faintness"],
+  	"responses" : ["According to your symptoms you might have Anxiety or Panic Disorder","You have Anxiety or Panic Disorder","I suppose you have Panic Disorder"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","therapy", "medication", "relaxation techniques", "lifestyle changes"]
+  },
+
+  {
+  	"tag" : "Arthritis",
+  	"patterns" : ["lack of movement","sored area","joint pain"],
+  	"responses" : ["According to your symptoms you might have any type of Arthritis","You have any type of Arthritis","I suppose you have any type of Arthritis"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","medications", "physical therapy", "joint injections", "lifestyle modifications"]
+  },
+
+  {
+  	"tag" : "Antitrypsin Deficiency",
+  	"patterns" : ["jaundice","yellow skin","coughing up blood","yellow urine"],
+  	"responses" : ["According to your symptoms you might have Antitrypsin Deficiency","You have Antitrypsin Deficiency","I suppose you have Antitrypsin Deficiency"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","augmentation therapy", "avoidance of lung irritants", "regular monitoring"]
+  },
+
+  {
+  	"tag" : "Abdominal Migraine",
+  	"patterns" : ["dark shadows under eyes","be pale","have little energy","feeling drowsy","unable to eat"],
+  	"responses" : ["According to your symptoms you might have Abdominal Migraine","You have Abdominal Migraine","I suppose you have Abdominal Migraine"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","pain relief medications", "dietary changes", "stress management"
+]
+  },
+
+  {
+  	"tag" : "Amyloidosis",
+  	"patterns" : ["sudden weight loss","feeling of fullness","shortness of breath","tongue swelling","severe fatigue","severe weakness","irregular heartbeat"],
+  	"responses" : ["According to your symptoms you might have Amyloidosis","You have Amyloidosis","I suppose you have Amyloidosis"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","treatment of underlying condition", "medications to manage symptoms", "supportive care"]
+
+  },
+
+  {
+  	"tag" : "Abscessed Tooth",
+  	"patterns" : ["trouble swallowing","trouble breathing","bad taste","gum redness","sensitivity","bad odor in mouth"],
+  	"responses" : ["According to your symptoms you might have Abscessed Tooth","You have Abscessed Tooth","I suppose you have Abscessed Tooth"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","dental drainage", "antibiotics", "root canal treatment", "tooth extraction"]
+  },
+
+  {
+  	"tag" : "Amenorrhea",
+  	"patterns" : ["hair loss","change in vision","hair growth on face","pain in pelvic area"],
+  	"responses" : ["According to your symptoms you might have Amenorrhea","You have Amenorrhea","I suppose you have Amenorrhea"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","hormonal therapies", "addressing underlying conditions", "nutritional adjustments"]
+  },
+
+  {
+  	"tag" : "Absence Seizure",
+  	"patterns" : ["sudden stop in motion","lip smacking","eyelid fluttering","finger rubbing"],
+  	"responses" : ["According to your symptoms you might have Absence Seizure","You have Absence Seizure","I suppose you have Absence Seizure"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","antiepileptic medications", "lifestyle modifications"]
+  },
+
+  {
+  	"tag" : "Sleep Apnea",
+  	"patterns" : ["loud snoring","loud gasping","loud choking","excessive sweating at night"],
+  	"responses" : ["According to your symptoms you might have Sleep Apnea","You have Sleep Apnea","I suppose you have Sleep Apnea"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","CPAP therapy", "lifestyle changes", "surgery"]
+  },
+
+  {
+  	"tag" : "Achalasia",
+  	"patterns" : ["food coming back up into the throat","nighttime coughing","heart is burning","hurt is belching"],
+  	"responses" : ["According to your symptoms you might have Achalasia","You have Achalasia","I suppose you have Achalasia"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","medications to relax the esophagus", "pneumatic dilation", "surgery", "endoscopic treatments"]
+  },
+
+  {
+  	"tag" : "Appendicitis",
+  	"patterns" : ["pain in lower belly","pain near navel","belly pain and vomiting","swollen belly","severe cramps","difficulty in peeing","constipation with gas"],
+  	"responses" : ["According to your symptoms you might have Appendicitis","You have Appendicitis","I suppose you have Appendicitis"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","surgical removal of the appendix", "antibiotic treatment"]
+  },
+
+  {
+  	"tag" : "Aparaxia of Speech",
+  	"patterns" : ["unable to form proper words","unable to say complex words","speech inconsistencies","distortion in vowel sounds"],
+  	"responses" : ["According to your symptoms you might have Aparaxia of Speech","You have Aparaxia of Speech","I suppose you have Aparaxia of Speech"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","speech therapy", "communication skills improvement"]
+  },
+
+  {
+    "tag" : "Arachnoiditis",
+    "patterns" : ["weakness in the legs","numbness in legs","ringing in ears","bladder problems"],
+    "responses" : ["According to your symptoms you are suffering from Arachnoiditis","You have Arachnoiditis","I suppose you have Arachnoiditis"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","pain management", "anti-inflammatory medications", "physical therapy"]
+  },
+
+  {
+    "tag" : "Acute Respiratory Distress Syndrome (ARDS)",
+    "patterns" : ["shortness of breath","low blood pressure","fast breathing","fast heartbeat","exhaustion","blue tinted lips","blue tinted nails"],
+    "responses" : ["According to your symptoms you are suffering from Acute Respiratory Distress Syndrome (ARDS)","You have Acute Respiratory Distress Syndrome (ARDS)","I suppose you have Acute Respiratory Distress Syndrome (ARDS)"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","mechanical ventilation", "treatment of underlying cause", "supportive care"]
+  },
+
+  {
+    "tag" : "Anemia",
+    "patterns" : ["fatigue","weakness","pale skin","yellowish skin","shortness of breath","cold hands","cold feet"],
+    "responses" : ["According to your symptoms you are suffering from Anemia","You have Anemia","I suppose you have Anemia"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","iron supplements", "vitamin B12 injections", "treatment of underlying causes", "dietary changes"]
+  },
+
+  {
+    "tag" : "Arrhythmia",
+    "patterns" : ["palpitations","chest pounding","breath shortness","blurry vision","anxiety"],
+    "responses" : ["According to your symptoms you might have Arrhythmia","You have Arrhythmia","I suppose you have Arrhythmia"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","medications to regulate heart rhythm", "lifestyle changes", "cardioversion", "catheter ablation"]
+  },
+
+  {
+    "tag" : "Asthma",
+    "patterns" : ["coughing at night","wheezing","chest pain","frequent cough","feeling tired","easily upset","trouble in sleeping","pale face","sweaty face"],
+    "responses" : ["According to your symptoms you might have Asthma","You have Asthma","I suppose you have Asthma"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","inhaled corticosteroids", "bronchodilators", "avoidance of triggers", "symptom monitoring"]
+  },
+
+  {
+    "tag" : "Autism",
+    "patterns" : ["delayed language","delayed learning","delayed movement","unusual mood","unusual eating habits","unusual sleeping habits","no facial expression"],
+    "responses" : ["According to your symptoms you might have Autism","You have Autism","I suppose you have Autism"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","behavioral therapies", "educational support", "speech therapy", "occupational therapy"]
+  },
+
+  {
+    "tag" : "Blepharitis",
+    "patterns" : ["feels like something in the eye","a burning feeling in the eye","blurry vision","sensitivity to light","dry eyes","red eyes","watery eyes"],
+    "responses" : ["According to your symptoms you might have Blepharitis","You have Blepharitis","I suppose you have Blepharitis"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","warm compresses", "eyelid hygiene", "antibiotic ointments"]
+  },
+
+  {
+    "tag" : "Bacterial Arthritis",
+    "patterns" : ["having chills","unable to move the limb with the infected joint","Severe pain in the affected joint"],
+    "responses" : ["According to your symptoms you might have Bacterial Arthritis","You have Bacterial Arthritis","I suppose you have Backterial Arthritis"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","antibiotic treatment", "pain management", "joint drainage"]
+  },
+
+  {
+    "tag" : "Bacterial Meningitis",
+    "patterns" : ["feeling confused","numbness in my face","neck is stiff","hard time concentrating","seizures","lack of appetite"],
+    "responses" : ["According to your symptoms you might have Bacterial Meningitis","You have Meningitis","I suppose you have Meningitis"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","immediate antibiotic treatment", "supportive care", "monitoring for complications"]
+  },
+
+  {
+    "tag" : "Benign Prostate Enlargement(BPE)",
+    "patterns" : ["makes it difficult o urinate","need to urinate frequently","wake up frequently in the night to urinate","difficulty in passing urine"],
+    "responses" : ["According to your symptoms you might have Benign Prostate Enlargement Disease","You have Benign Prostate Enlargement Disease","I suppose you have Benign Prostate Enlargement Disease"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","medications", "minimally invasive procedures", "surgery"]
+  },
+
+  {
+    "tag" : "Bipolar Disorder",
+    "patterns" : ["feeling depressed","lacking energy","loss of interest","feeling worthless","being pessimistic about everything","being delusional","suicidal thoughts","feeling full of energy","easily irritated"],
+    "responses" : ["According to your symptoms you might have Bipolar Disorder Disease","You have Bipolar Disorder Disease","I suppose you have Bipolar Disorder Disease"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","mood stabilizers", "antidepressants", "psychotherapy", "lifestyle management"]
+  },
+
+  {
+  	"tag" : "Bronchiectasis",
+  	"patterns" : ["persistent cough with large amount of phlegm","coughing up blood","coughing up blood-stained phlegm"],
+  	"responses" : ["According to your symptoms you might have Bronchiectasis Disease","You have Bronchiectasis Disease","I suppose you have Bronchiectasis Disease"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","antibiotics", "physiotherapy", "medications to manage symptoms"]
+
+  },
+
+  {
+  	"tag" : "Bronchitis",
+  	"patterns" : ["blocked nose","runny or blocked nose","tiredness","cough with phlegm","cough with yellow gray phlegm"],
+  	"responses" : ["According to your symptoms you might have Bronchitis Disease","You have Bronchitis Disease","I suppose you have Bronchitis Disease"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","cough medications", "inhalers", "rest", "fluids"]
+  },
+
+  {
+  	"tag" : "Bulimia",
+  	"patterns" : ["over eating","think about food all time","overeats","focus in body image"],
+  	"responses" : ["According to your symptoms you might have Bulimia Disease","You have Bulimia Disease","I suppose you have Bulimia Disease"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","therapy", "nutritional counseling", "support groups"]
+  },
+
+  {
+  	"tag" : "Catarrh",
+  	"patterns" : ["constantly need to clear throat","blocked or stuffy nose can't clear","throat blocked","reduced sense of smell","reduced sense of taste","temporary hearing loss"],
+  	"responses" : ["According to your symptoms you might have Catarrh Disease","You have Catarrh Disease","I suppose you have Catarrh Disease"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","nasal sprays", "decongestants", "steam inhalation", "avoidance of irritants"]
+  },
+
+  {
+  	"tag" : "Cellulitis",
+  	"patterns" : ["red skin","hot skin","swollen skin","tender skin"],
+  	"responses" : ["According to your symptoms you might have Cellulitis Disease","You have Cellulitis Disease","I suppose you have Cellulitis Disease"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","antibiotics", "pain management", "wound care"]
+  },
+
+  {
+  	"tag" : "Chest Infection",
+  	"patterns" : ["rapid heart beat","chest tightness","feeling confused"],
+  	"responses" : ["According to your symptoms you might have Chest Infection","You have Chest Infection","I suppose you have Chest Infection"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","antibiotics", "rest", "fluids", "over-the-counter medications"]
+  },
+
+  {
+    "tag" : "Chest Pain",
+    "patterns" : ["chest feels heavy","chest feels tight","pain in chest and arms back and jaw","breathlessness"],
+    "responses" : ["According to your symptoms you might have Chest Pain","You have Chest Pain","I suppose you have Chest Pain"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","evaluation for underlying conditions", "pain management", "treatment of underlying cause"]
+  },
+
+  {
+    "tag" : "Chronic Fatigue Syndrome",
+    "patterns" : ["sleep disturbance","poor temperature control","dizziness","hyper sensitive to light","hyper sensitive to sound","speech problem","language problem","problem with concentration","problem with thinking"],
+    "responses" : ["According to your symptoms you might have Chronic Fatigue Syndrome","You have Chronic Fatigue Syndrome","I suppose you have Chronic Fatigue Syndrome"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","symptomatic treatment", "lifestyle changes", "cognitive behavioral therapy"]
+  },
+
+  {
+  "tag": "Common Cold",
+  "patterns": ["sore throat", "sneezing", "coughing", "hoarse voice", "headache", "ear ache", "blocked nose", "runny nose"],
+  "responses": ["According to your symptoms you might have Common Cold", "You have Common Cold", "I suppose you have Common Cold"],
+  "treatment": ["Potential treatments or management strategies for your conditions are -", "rest", "hydration", "over-the-counter cold remedies", "steam inhalation", "throat lozenges"]
+  },
+
+  {
+    "tag" : "Conjunctivitis",
+    "patterns" : ["eye redness","burning sensation in eyes","sticky coating on eye lashes","disturbed vision","intense red in eyes"],
+    "responses" : ["According to your symptoms you might have Conjunctivitis","You have Conjunctivitis","I suppose you have Conjunctivitis"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","antihistamines", "antibiotic drops", "avoidance of allergens", "good hygiene"]
+  },
+
+  {
+    "tag" : "Dehydration",
+    "patterns" : ["light-headedness","tiredness","dry mouth","dry lips","infrequent urine"],
+    "responses" : ["According to your symptoms you might have Dehydration","You have Dehydration","I suppose you have Dehydration"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -", "increased fluid intake", "oral rehydration solutions", "treatment of underlying cause"]
+  },
+
+  {
+    "tag" : "Dental Abscess",
+    "patterns" : ["intense pain in tooth","intense pain in gum","tooth pain spreads to ear jaw and neck","tender tooth","discoloured tooth","bad breath","sensitive to hot and cold"],
+    "responses" : ["According to your symptoms you might have Dental Abscess","You have Dental Abscess","I suppose you have Dental Abscess"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","dental treatment", "antibiotics", "pain management", "follow-up care"
+]
+  },
+
+  {
+    "tag" : "Depression",
+    "patterns" : ["continuous sadness","mood off","losing interest in things","losing motivation","feeling anxious","feeling guilty","feeling helpless","feeling hopeless","low self esteem","speaking slower than usual","feeling worried"],
+    "responses" : ["According to your symptoms you might have Depression","You have Depression","I suppose you have Depression"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","antidepressants", "psychotherapy", "lifestyle changes", "support"]
+  },
+
+  {
+    "tag" : "Diabetes",
+    "patterns" : ["feeling very thirsty","loss of muscle bulk","feeling very tired","wounds heal slowly"],
+    "responses" : ["According to your symptoms you might have Diabetes","You have Diabetes","I suppose you have Diabetes"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","blood sugar management", "lifestyle changes", "regular monitoring", "medical care"
+]
+  },
+
+  {
+    "tag" : "Diarrhoea",
+    "patterns" : ["stomach cramps","pale skin","cold hands","cold feet","feeling drowsy","rapid heartbeat"],
+    "responses" : ["According to your symptoms you might have Diarrhoea","You have Diarrhoea","I suppose you have Diarrhoea"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","rehydration", "dietary adjustments", "medications if necessary"]
+  },
+
+  {
+    "tag" : "Dystonia",
+    "patterns" : ["muscle spasms","abnormal posture","twisted posture","foot turning inwards","body parts jerking rapidly"],
+    "responses" : ["According to your symptoms you might have Dystonia","You have Dystonia","I suppose you have Dystonia"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","medications", "botulinum toxin injections", "physical therapy"]
+  },
+
+  {
+    "tag" : "Epilepsy",
+    "patterns" : ["experienced the events before","unusual smell or taste","tingling sensation in arms and legs","sudden feeling of fear or joy"],
+    "responses" : ["According to your symptoms you might have Epilepsy","You have Epilepsy","I suppose you have Epilepsy"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","antiepileptic drugs", "lifestyle adjustments", "surgery"]
+  },
+
+  {
+    "tag" : "Escherichia Coli",
+    "patterns" : ["diarrhoea","stomach cramps","occasionally fever"],
+    "responses" : ["According to your symptoms you might have Escherichia Coli","You have Escherichia Coli","I suppose you have Escherichia Coli"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","hydration and rest", "antibiotics", "avoidance of contaminated food and water"
+]
+  },
+
+  {
+    "tag" : "Flu",
+    "patterns" : ["sudden fever","dry cough","chesty cough","chills","aching muscles","sore throat"],
+    "responses" : ["According to your symptoms you might have Flu","You have Flu","I suppose you have Flu"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","antiviral medications", "rest", "fluids", "over-the-counter medications"]
+  },
+
+  {
+    "tag" : "Fetal alcohol spectrum disorder",
+    "patterns" : ["hyperactivity","impulsivity","sensory difficulties","attention deficiency"],
+    "responses" : ["According to your symptoms you might have Fetal alcohol spectrum disorder","You have Fetal alcohol spectrum disorder","I suppose you have Fetal alcohol spectrum disorder"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","early intervention", "therapy", "supportive services", "education"]
+  },
+
+  {
+    "tag" : "Food poisoning",
+    "patterns" : ["nausea","diarrhoea","abdominal pain","chills","aching muscles","fever","stomach cramps","vomiting"],
+    "responses" : ["According to your symptoms you might have Food poisoning","You have Food poisoning","I suppose you have Food poisoning"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","hydration and rest", "avoidance of solid food", "medical care if severe"]
+  },
+
+  {
+    "tag" : "Fungal nail infection",
+    "patterns" : ["discolouration of the nail","brittle nails","crumbly nails","distorted nails"],
+    "responses" : ["According to your symptoms you might have Fungal nail infection","You have Fungal nail infection","I suppose you have Fungal nail infection"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","antifungal medications", "proper nail hygiene", "avoidance of contaminated areas"]
+  },
+
+  {
+    "tag" : "Gallbladder cancer",
+    "patterns" : ["abdominal pain","stomach pain","jaundice","loss of appetite","swollen stomach","weight loss"],
+    "responses" : ["According to your symptoms you might have Gallbladder cancer","You have Gallbladder cancer","I suppose you have Gallbladder cancer"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","surgery", "chemotherapy", "radiation therapy", "palliative care"]
+  },
+
+  {
+    "tag" : "Gallstones",
+    "patterns" : ["jaundice","persistent abdominal pain","fever"],
+    "responses" : ["According to your symptoms you might have Gallstones","You have Gallstones","I suppose you have Gallstones"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","medications", "surgery", "dietary modifications"]
+  },
+
+  {
+    "tag" : "Ganglion cyst",
+    "patterns" : ["joint pain","cysts in wrist","swelling"],
+    "responses" : ["According to your symptoms you might have Ganglion cyst","You have Ganglion cyst","I suppose you have Ganglion cyst"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","observation", "aspiration", "surgery"]
+  },
+
+  {
+    "tag" : "Gastroenteritis",
+    "patterns" : ["diarrhoea","vomiting","mild fever","aching limbs","headache","upset stomach","loss of appetite"],
+    "responses" : ["According to your symptoms you might have Gastroenteritis","You have Gastroenteritis","I suppose you have Gastroenteritis"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","rehydration", "dietary adjustments", "medications for symptoms"]
+  },
+
+  {
+    "tag" : "Gastro-oesophageal reflux disease (GORD)",
+    "patterns" : ["heartburn","bad breath","belching","acid reflux","pain when swallowing"],
+    "responses" : ["According to your symptoms you might have Gastro-oesophageal reflux disease (GORD)","You have Gastro-oesophageal reflux disease (GORD)","I suppose you have Gastro-oesophageal reflux disease (GORD)"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","antacids", "acid-reducing medications", "lifestyle modifications", "surgery"]
+  },
+
+  {
+    "tag" : "Genital herpes",
+    "patterns" : ["pain peeing","genital pain","swelling in groin","blisters","vaginal discharge","rectal pain"],
+    "responses" : ["According to your symptoms you might have Genital herpes","You have Genital herpes","I suppose you have Genital herpes"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","antiviral medications", "pain management", "avoidance of transmission"]
+  },
+
+  {
+    "tag": "Genital warts",
+    "patterns": ["lumps around genitals", "warts", "vaginal outgrowth", "lumps around penis"],
+    "responses": ["According to your symptoms you might have Genital warts", "You have Genital warts", "I suppose you have Genital warts"],
+    "treatment": ["Potential treatments or management strategies for your conditions are -", "topical treatments", "cryotherapy", "laser therapy", "avoidance of transmission"]
+  },
+
+  {
+    "tag" : "Germ cell tumours",
+    "patterns" : ["lump","olk-sac tumours"],
+    "responses" : ["According to your symptoms you might have Germ cell tumours","You have Germ cell tumours","I suppose you have Germ cell tumours"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","surgery", "chemotherapy", "radiation therapy", "regular monitoring"]
+  },
+
+  {
+    "tag": "Glandular fever",
+    "patterns": ["fever", "swollen glands", "sore throat", "fatigue", "extreme tiredness"],
+    "responses": ["According to your symptoms you might have Glandular fever", "You have Glandular fever", "I suppose you have Glandular fever"],
+    "treatment": ["Potential treatments or management strategies for your conditions are -", "rest", "hydration", "pain relief medications", "avoiding strenuous activities"]
+  },
+
+  {
+    "tag": "Gonorrhoea",
+    "patterns": ["pain while urinating", "pain in lower abdomen", "bleeding after sex", "swelling of the testicles", "yellow fluid discharge", "increased vaginal discharge"],
+    "responses": ["According to your symptoms you might have Gonorrhoea", "You have Gonorrhoea", "I suppose you have Gonorrhoea"],
+    "treatment": ["Potential treatments or management strategies for your conditions are -", "antibiotics", "abstaining from sexual activity during treatment", "partner notification and treatment", "regular STI screenings"]
+  },
+
+  {
+    "tag" : "Gout",
+    "patterns" : ["joint pain","shiny skin over joints","swelling of joints","tender joints"],
+    "responses" : ["According to your symptoms you might have Gout","You have Gout","I suppose you have Gout"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","medications to lower uric acid", "pain management", "dietary changes"]
+  },
+
+  {
+    "tag" : "Gum disease",
+    "patterns" : ["bad breath","bleeding in gums","swelling in gums","sore gums","bleeding while brushing"],
+    "responses" : ["According to your symptoms you might have Gum disease","You have Gum disease","I suppose you have Gum disease"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -", "good oral hygiene practices", "antiseptic mouthwashes", "professional dental cleanings", "antibiotic treatments"]
+  },
+
+  {
+    "tag" : "Haemorrhoids (piles)",
+    "patterns" : ["mucus discharge after passing a stool","itchy bottom","bleeding after defecating","soreness in anus","swelling around anus","redness around anus"],
+    "responses" : ["According to your symptoms you might have Haemorrhoids (piles)","You have Haemorrhoids (piles)","I suppose you have Haemorrhoids (piles)"],
+    "treatment": ["Potential treatments or management strategies for your conditions are -", "over-the-counter creams", "warm sitz baths", "increased fiber intake", "avoidance of straining during bowel movements", "surgical options if severe"]
+  },
+
+  {
+    "tag" : "Hand, foot and mouth disease",
+    "patterns" : ["coughing","sore throat","sore mouth","loss of appetite","fever","abdominal pain","mouth ulcers","blisters","spotty rash"],
+    "responses" : ["According to your symptoms you might have Hand, foot and mouth disease","You have Hand, foot and mouth disease","I suppose you have Hand, foot and mouth disease"],
+    "treatment": ["Potential treatments or management strategies for your conditions are -", "pain relief medications", "hydration", "rest", "topical treatments for sores"]
+  },
+
+  {
+    "tag" : "Hay fever",
+    "patterns" : ["sneezing","itchy eyes","runny nose"],
+    "responses" : ["According to your symptoms you might have Hay fever","You have Hay fever","I suppose you have Hay fever"],
+    "treatment": ["Potential treatments or management strategies for your conditions are -", "antihistamines", "nasal corticosteroids", "avoidance of allergens", "allergy shots"]
+  },
+
+  {
+    "tag" : "Head and neck cancer",
+    "patterns" : ["persistent mouth ulcers","lump in mouth","persistent hoarseness","a persistent cough","lump or swelling in neck","shortness of breath","noisy breathing","difficulty or pain when swallowing","numbness in face","drooping on one side of face","nosebleeds","a persistent blocked nose","decreased sense of smell","hearing loss"],
+    "responses" : ["According to your symptoms you might have Head and neck cancer","You have Head and neck cancer","I suppose you have Head and neck cancer"],
+    "treatment": ["Potential treatments or management strategies for your conditions are -", "surgery", "radiation therapy", "chemotherapy", "targeted therapies"]
+  },
+
+  {
+    "tag" : "Head lice and nits",
+    "patterns" : ["itchy scalp","rash on the back of the neck","small white eggs or nits in the hair"],
+    "responses" : ["According to your symptoms you might have Head lice and nits","You have Head lice and nits","I suppose you have Head lice and nits"],
+    "treatment": ["Potential treatments or management strategies for your conditions are -", "topical insecticides", "manual removal of lice and nits", "regular combing", "treatment of all close contacts"]
+  },
+
+  {
+    "tag" : "Headaches",
+    "patterns" : ["stress","dehydration","nausea","vomiting","ncreased sensitivity to light or sound","watering or red eye","blocked or runny nose"],
+    "responses" : ["According to your symptoms you might have Headaches","You have Headaches","I suppose you have Headaches"],
+    "treatment": ["Potential treatments or management strategies for your conditions are -", "pain relief medications", "hydration", "stress management", "adequate rest"]
+  },
+
+  {
+    "tag" : "Hearing loss",
+    "patterns" : ["difficulty hearing","misunderstanding other people","asking people to repeat themselves"],
+    "responses" : ["According to your symptoms you might have Hearing loss","You have Hearing loss","I suppose you have Hearing loss"],
+    "treatment": ["Potential treatments or management strategies for your conditions are -", "hearing aids", "assistive listening devices", "treatment of underlying causes", "speech therapy"]
+},
+
+  {
+    "tag" : "Heart failure",
+    "patterns" : ["breathlessness","tiredness and lethargy","leg swelling","loss of appetite"],
+    "responses" : ["According to your symptoms you might have Heart failure","You have Heart failure","I suppose you have Heart failure"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -", "medications to improve heart function", "lifestyle changes", "dietary modifications", "regular monitoring and follow-up"]
+  },
+
+  {
+    "tag" : "Hepatitis A",
+    "patterns" : ["joint and muscle pain","fever","loss of appetite","itchy skin","dark urine","pale stools","jaundice","tiredness"],
+    "responses" : ["According to your symptoms you might have Hepatitis A","You have Hepatitis A","I suppose you have Hepatitis A"],
+    "treatment": ["Potential treatments or management strategies for your conditions are -", "rest", "hydration", "avoidance of alcohol", "supportive care"]
+},
+
+  {
+    "tag" : "Hepatitis B",
+    "patterns" : ["loss of appetite","diarrhoea","abdominal pain","tiredness","fever","flu"],
+    "responses" : ["According to your symptoms you might have Hepatitis B","You have Hepatitis B","I suppose you have Hepatitis B"],
+    "treatment": ["Potential treatments or management strategies for your conditions are -", "antiviral medications", "regular monitoring", "lifestyle modifications", "avoidance of alcohol"]
+  },
+
+  {
+    "tag" : "Hepatitis C",
+    "patterns" : ["tiredness","flu","loss of appetite","abdominal pain","muscle ache","fever"],
+    "responses" : ["According to your symptoms you might have Hepatitis C","You have Hepatitis C","I suppose you have Hepatitis C"],
+    "treatment": ["Potential treatments or management strategies for your conditions are -", "antiviral medications", "regular monitoring", "lifestyle changes", "avoidance of alcohol"]
+  },
+
+  {
+    "tag" : "Hiatus hernia",
+    "patterns" : ["weak diaphragm","pressure on abdomen","leaking stomach acid","scarring on stomach"],
+    "responses" : ["According to your symptoms you might have Hiatus hernia","You have Hiatus hernia","I suppose you have Hiatus hernia"],
+    "treatment": ["Potential treatments or management strategies for your conditions are -", "antacids", "proton pump inhibitors", "lifestyle changes", "surgery if necessary"]
+  },
+
+  {
+    "tag" : "High cholesterol",
+    "patterns" : ["overweight","high blood pressure","diabetes","stroke","heart attack"],
+    "responses" : ["According to your symptoms you might have High cholesterol","You have High cholesterol","I suppose you have High cholesterol"],
+    "treatment": ["Potential treatments or management strategies for your conditions are -", "statins", "lifestyle changes", "dietary adjustments", "regular monitoring"]
+  },
+
+  {
+    "tag" : "HIV",
+    "patterns" : ["fever","swollen glands","rash","upset stomach","headache","muscle pain","joint pain"],
+    "responses" : ["According to your symptoms you might have HIV","You have HIV","I suppose you have HIV"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -", "antiretroviral therapy", "regular monitoring", "supportive care", "prevention of opportunistic infections"]
+  },
+
+  {
+    "tag" : "Huntington's disease",
+    "patterns" : ["problem in movement","problem in cognition","mood swings","personality changes","irritability",""],
+    "responses" : ["According to your symptoms you might have Huntington's disease","You have Huntington's disease","I suppose you have Huntington's disease","fidgety movements"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -", "medications to manage symptoms", "physical therapy", "occupational therapy", "supportive care"]
+  },
+
+  {
+    "tag" : "Hyperglycaemia (high blood sugar)",
+    "patterns" : ["increased thirst","dry mouth","tiredness","blurred vision","unintentional weight loss","skin infection","thrush","recurrent infections","bladder infections","frequent urge to urinate"],
+    "responses" : ["According to your symptoms you might have Hyperglycaemia (high blood sugar)","You have Hyperglycaemia (high blood sugar)","I suppose you have Hyperglycaemia (high blood sugar)"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -", "insulin or oral medications", "dietary changes", "regular blood sugar monitoring", "lifestyle modifications"]
+  },
+
+  {
+    "tag" : "Hyperhidrosis",
+    "patterns" : ["excessive sweating","socially withdrawn","swelling in armpits","swelling in palms","swelling in groin","swelling in soles","swelling in face and chest"],
+    "responses" : ["According to your symptoms you might have Hyperhidrosis","You have Hyperhidrosis","I suppose you have Hyperhidrosis"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -", "antiperspirants", "medications", "botulinum toxin injections", "surgery in severe cases"]
+  },
+
+  {
+    "tag" : "Hypoglycaemia (low blood sugar)",
+    "patterns" : ["hunger","trembling","shakiness","sweating","difficulty concentrating","disturbed sleep","confused upon waking"],
+    "responses" : ["According to your symptoms you might have Hypoglycaemia (low blood sugar)","You have Hypoglycaemia (low blood sugar)","I suppose you have Hypoglycaemia (low blood sugar)"],
+    "treatment": ["Potential treatments or management strategies for your conditions are -", "glucose tablets or gels", "adjustment of diabetes medications", "regular monitoring of blood sugar levels", "education on hypoglycaemia management"]
+  },
+
+  {
+    "tag" : "Idiopathic pulmonary fibrosis",
+    "patterns" : ["shortness of breath","tiredness","persistent dry cough","loss of appetite","loss of weight","swollen fingertips","clubbed fingers"],
+    "responses" : ["According to your symptoms you might have Idiopathic pulmonary fibrosis","You have Idiopathic pulmonary fibrosis","I suppose you have Idiopathic pulmonary fibrosis"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -", "medications to slow disease progression", "oxygen therapy", "pulmonary rehabilitation", "supportive care"]
+  },
+
+  {
+    "tag" : "Impetigo",
+    "patterns" : ["red sores around nose","fever"," swollen glands","blisters"],
+    "responses" : ["According to your symptoms you might have Impetigo","You have Impetigo","I suppose you have Impetigo"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -", "antibiotic ointments", "oral antibiotics", "good hygiene practices", "avoidance of close contact with others"]
+  },
+
+  {
+    "tag" : "Indigestion",
+    "patterns" : ["bloatedness","belching","regurgitation","nausea","feeling full"],
+    "responses" : ["According to your symptoms you might have Indigestion","You have Indigestion","I suppose you have Indigestion"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -", "antacids", "proton pump inhibitors", "dietary adjustments", "stress management"]
+  },
+
+  {
+    "tag" : "Ingrown toenail",
+    "patterns" : ["inflammation in toe","yellow pus from toe","oedema","curling of nail"],
+    "responses" : ["According to your symptoms you might have Ingrown toenail","You have Ingrown toenail","I suppose you have Ingrown toenail"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -", "proper nail trimming", "antiseptic treatments", "soaking in warm water", "surgical intervention if severe"]
+  },
+
+  {
+    "tag" : "Inherited heart conditions",
+    "patterns" : ["palpitations","fainting","blackouts"],
+    "responses" : ["According to your symptoms you might have Inherited heart conditions","You have Inherited heart conditions","I suppose you have Inherited heart conditions"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -", "medications to manage symptoms", "lifestyle changes", "regular monitoring", "genetic counseling"]
+  },
+
+  {
+    "tag" : "Insomnia",
+    "patterns" : ["difficulty in sleeping","awake for long periods","not feeling refreshed after waking","difficulty napping","difficulty concentrating","irritable"],
+    "responses" : ["According to your symptoms you might have Insomnia","You have Insomnia","I suppose you have Insomnia"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","sleep hygiene practices", "CBT-I", "medications if necessary"]
+  },
+
+  {
+    "tag" : "Iron deficiency anaemia",
+    "patterns" : ["tiredness","lethargy","lack of energy","shortness of breath","pale complexion","heart palpitations","headache","feeling itchy","difficulty swallowing","abnormally smooth tongue","hair loss"],
+    "responses" : ["According to your symptoms you might have Iron deficiency anaemia","You have Iron deficiency anaemia","I suppose you have Iron deficiency anaemia"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -", "iron supplements", "dietary changes to increase iron intake", "treatment of underlying causes", "regular monitoring"]
+  },
+
+  {
+    "tag": "Irritable bowel syndrome (IBS)",
+    "patterns": ["abdominal pain", "diarrhoea", "constipation", "bloating", "excessive flatulence", "lethargy", "heartburn", "cramping"],
+    "responses": ["According to your symptoms you might have Irritable bowel syndrome (IBS)", "You have Irritable bowel syndrome (IBS)", "I suppose you have Irritable bowel syndrome (IBS)"],
+    "treatment": ["Potential treatments or management strategies for your conditions are -", "dietary changes", "medications to manage symptoms", "stress management techniques", "regular exercise"]
+  },
+
+  {
+    "tag": "Irritable hip",
+    "patterns": ["slightly higher temperature", "pain in the knee", "thigh pain", "restricted movement in hip joints", "limping", "hip pain"],
+    "responses": ["According to your symptoms you might have Irritable hip", "You have Irritable hip", "I suppose you have Irritable hip"],
+    "treatment": ["Potential treatments or management strategies for your conditions are -", "rest", "pain relief medications", "physiotherapy", "avoiding activities that worsen the pain"]
+  },
+
+  {
+    "tag": "Itching",
+    "patterns": ["redness", "leathery or scaly patches", "scratch marks", "blisters", "cracked skin", "itchy skin", "itchiness all over body", "dry skin", "persistent itch"],
+    "responses": ["According to your symptoms you might have Itching", "You have Itching", "I suppose you have Itching"],
+    "treatment": ["Potential treatments or management strategies for your conditions are -", "moisturizers", "antihistamines", "avoiding irritants", "topical treatments"]
+  },
+
+  {
+    "tag": "Itchy bottom",
+    "patterns": ["persistent anal itch", "anal bleeding", "stool leakage", "severe rectal itch", "itchiness in bottom"],
+    "responses": ["According to your symptoms you might have Itchy bottom", "You have Itchy bottom", "I suppose you have Itchy bottom"],
+    "treatment": ["Potential treatments or management strategies for your conditions are -", "good hygiene practices", "moisturizers", "topical treatments", "avoiding irritants"]
+  },
+
+  {
+    "tag": "Kaposi's sarcoma",
+    "patterns": ["uncomfortable swelling", "nausea", "vomiting", "coughing up blood", "chest pain", "stomach pain"],
+    "responses": ["According to your symptoms you might have Kaposi's sarcoma", "You have Kaposi's sarcoma", "I suppose you have Kaposi's sarcoma"],
+    "treatment": ["Potential treatments or management strategies for your conditions are -", "antiretroviral therapy", "chemotherapy", "radiation therapy", "surgery"]
+  },
+
+  {
+    "tag": "Kidney infection",
+    "patterns": ["pus in kidney", "shivering", "pain in the back", "painful urination", "fever"],
+    "responses": ["According to your symptoms you might have Kidney infection", "You have Kidney infection", "I suppose you have Kidney infection"],
+    "treatment": ["Potential treatments or management strategies for your conditions are -", "antibiotics", "pain relief medications", "hydration", "rest"]
+  },
+
+  {
+    "tag" : "Kidney stones",
+    "patterns" : ["persistent ache in lower back","periods of intense pain","nausea","pain while urination","blood in urine","gfrequent urge to urinate","restlessness"],
+    "responses" : ["According to your symptoms you might have Kidney stones","You have Kidney stones","I suppose you have Kidney stones"],
+    "treatment" :["Potential treatments or management strategies for your conditions are -","pain management", "increased fluid intake", "surgery or procedures if necessary"]
+  },
+
+  {
+  	"tag" : "Unknown",
+  	"patterns" : [],
+  	"responses" : ["Sorry I didn't understand what you said","Sorry I didn't catch that","Sorry I can't recognize you , Please try again"]
+  },
+
+  {
+    "tag" : "Goodbye",
+    "patterns" : ["Thank You, Goodbye","See you","Bye","goodbye"],
+    "responses"  : ["Have a Nice day","Thank You to you too","Talk to you later!","GoodBye!"]
+  }
+]
+}
