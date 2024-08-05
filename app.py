@@ -10,6 +10,7 @@ from tensorflow.keras.models import load_model
 from nltk.stem import WordNetLemmatizer
 import nltk
 
+
 lemmatizer = WordNetLemmatizer()
 intents = json.load(open("intents.json"))
 words = pickle.load(open('words.pkl', 'rb'))
@@ -52,7 +53,7 @@ def get_response(intents_list, intents_json):
 def calling_the_bot(txt):
     predict = predict_class(txt)
     response = get_response(predict, intents)
-    return f"*We found in our database*: {response}"
+    return f" {response}"
 
 def get_audio_input():
     with mic as source:
@@ -89,7 +90,7 @@ if not st.session_state.started:
     initialize_bot()
 
 if not st.session_state.greeted:
-    st.write("Hello user, I am Waley, Your personal Talking Healthcare Chatbot.")
+    st.subheader("I am Waley, Your personal Talking Healthcare Chatbot.")
     st.write("You may tell me your symptoms now. I am listening...")
     st.session_state.greeted = True
 
@@ -99,13 +100,13 @@ while continue_listening:
     os.system(f"say -v {st.session_state.voice} 'You may tell me your symptoms now. I am listening.'")
     text = get_audio_input()
     if text:
-        st.write(f"*You said:* {text}")
-        os.system(f"say -v {st.session_state.voice} 'You said {text}'")
+        st.markdown(f"<span style='color: green; font-weight: bold;'>You said:</span> {text}", unsafe_allow_html=True)
+        os.system(f"say -v {st.session_state.voice} 'You:{text}'")
         st.write("Scanning our database for your symptom. Please wait...")
         os.system(f"say -v {st.session_state.voice} 'Scanning our database for your symptom. Please wait.'")
         time.sleep(1)
         response = calling_the_bot(text)
-        st.write(response)
+        st.markdown(f"<span style='color: orange; font-weight: bold;'>Bot:</span> {response}", unsafe_allow_html=True)
         os.system(f"say -v {st.session_state.voice} 'Found it. We found that {response}'")
     else:
         st.write("Sorry, either your symptom is unclear to me or it is not present in our database. Please try again.")
