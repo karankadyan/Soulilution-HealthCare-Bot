@@ -2,6 +2,8 @@
 
 This is a healthcare chatbot built using Streamlit that interacts with users via voice. The bot listens to user symptoms, searches a predefined database, and provides a response through both voice and text.
 
+<img width="1440" alt="Screenshot 2024-08-05 at 6 04 18 PM" src="https://github.com/user-attachments/assets/bfa57b45-4973-445a-bcd0-efece539ac61">
+
 ## Features
 
 - Voice interaction: The bot listens to user input and responds accordingly.
